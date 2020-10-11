@@ -21,8 +21,8 @@ print("No of Students : {}".format(Student.total_students))
 
 print("Adding students data")
 
-student1 = Student("Karam", "Gajbhiye", "S21", 76, 80, 78)
-student2 = Student("Param", "Gajbhiye", "S27", 85, 84, 75)
+student1 = Student("Karam", "G", "S21", 76, 80, 78)
+student2 = Student("Param", "G", "S27", 85, 84, 75)
 
 
 print("Full Name - {} {}, Roll No. - {}, Math Marks : {}, English Marks : {}, Science Marks : {}".format(student1.firstname,
