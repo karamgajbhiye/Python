@@ -17,7 +17,7 @@ class Employee:
     @staticmethod
     def working_days(day):
         if day == "Sunday" or day == "sunday":
-            return "Office is close."
+            return "Office is closed."
         else:
             return "Office is open."
 
