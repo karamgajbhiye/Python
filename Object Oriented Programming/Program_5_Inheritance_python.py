@@ -18,21 +18,27 @@ class Student:
 
 # inheritance in python
 class Coaching(Student):
-    def __init__(self,firstname, lastname, rollno, math_marks,eng_marks, sci_marks, prog_lang):
+    def __init__(self,firstname, lastname, rollno, math_marks,eng_marks, sci_marks, prog_lang, prog_lang_marks):
         super().__init__(firstname,lastname,rollno,math_marks,eng_marks,sci_marks)
         self.prog_lang=prog_lang
+        self.prog_lang_marks=prog_lang_marks
 
-
-
+    def Update_Percentage(self):
+        self.percentage = ((self.math_marks+self.eng_marks+self.sci_marks+self.prog_lang_marks)*100/400)
+        return self.percentage
 
 
 
 '''print("No of Students : {}".format(Student.total_students))
 print("Adding students data")'''
 
-student1 = Coaching("Karam", "G", "S21", 76, 80, 78,'Python')
-student2 = Coaching("Param", "G", "S27", 85, 84, 75,'Java')
+student1 = Coaching("Karam", "G", "S21", 76, 80, 78,'Python',84)
+student2 = Coaching("Param", "G", "S27", 85, 84, 75,'Java',89)
 print(student1.firstname)
+S01_Perc = student1.Percentage()
+S01_Up_Perc = student1.Update_Percentage()
+print("Student {} {} has got {} %.(Student)".format(student1.firstname,student1.lastname, S01_Perc))
+print("Student {} {} has got {} %.(Coaching)".format(student1.firstname,student1.lastname, S01_Up_Perc))
 
 '''print("Full Name - {} {}, Roll No. - {}, Math Marks : {}, English Marks : {}, Science Marks : {}".format(student1.firstname,
                                                 student1.lastname, student1.rollno,student1.math_marks,student1.eng_marks,student1.sci_marks))
