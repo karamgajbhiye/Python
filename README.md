@@ -4,5 +4,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0607-sales-person](https://github.com/karamgajbhiye/Python/tree/master/0607-sales-person) |
 | [1321-restaurant-growth](https://github.com/karamgajbhiye/Python/tree/master/1321-restaurant-growth) |
 <!---LeetCode Topics End-->
