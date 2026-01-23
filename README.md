@@ -5,5 +5,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0607-sales-person](https://github.com/karamgajbhiye/Python/tree/master/0607-sales-person) |
+| [1068-product-sales-analysis-i](https://github.com/karamgajbhiye/Python/tree/master/1068-product-sales-analysis-i) |
 | [1321-restaurant-growth](https://github.com/karamgajbhiye/Python/tree/master/1321-restaurant-growth) |
 <!---LeetCode Topics End-->
