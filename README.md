@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0182-duplicate-emails](https://github.com/karamgajbhiye/Python/tree/master/0182-duplicate-emails) |
 | [0197-rising-temperature](https://github.com/karamgajbhiye/Python/tree/master/0197-rising-temperature) |
 | [0584-find-customer-referee](https://github.com/karamgajbhiye/Python/tree/master/0584-find-customer-referee) |
+| [0595-big-countries](https://github.com/karamgajbhiye/Python/tree/master/0595-big-countries) |
 | [0607-sales-person](https://github.com/karamgajbhiye/Python/tree/master/0607-sales-person) |
 | [0610-triangle-judgement](https://github.com/karamgajbhiye/Python/tree/master/0610-triangle-judgement) |
 | [0620-not-boring-movies](https://github.com/karamgajbhiye/Python/tree/master/0620-not-boring-movies) |
